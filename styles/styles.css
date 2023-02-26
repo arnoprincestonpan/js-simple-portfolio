@@ -187,6 +187,22 @@ section{
     width: 25%;
 }
 
+#contact-display{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#copyright{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
 @media(max-width: 768px){
     .hamburger{
         display: block;
