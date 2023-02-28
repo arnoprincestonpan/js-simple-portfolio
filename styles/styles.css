@@ -85,6 +85,7 @@ section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .hero-text{
@@ -201,6 +202,16 @@ section{
     margin: 1rem;
     align-items: center;
     justify-content: center;
+}
+
+#display-image{
+    margin-left: 3rem;
+    border-radius: 50%;
+    border: #E3DECA 1px solid;
+}
+
+#display-contact{
+    margin-right: 3rem;
 }
 
 @media(max-width: 768px){
